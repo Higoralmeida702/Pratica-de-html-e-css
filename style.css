@@ -106,3 +106,58 @@ body {
     background: #167BF7;
 }
 
+.dispositivos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.dispostitivos__titulo {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.lista__item {
+    font-size: 32px;
+    text-align: center;
+}
+
+.rodape {
+    text-align: center;
+    margin: 80px 48px;
+    
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 16px;
+}
+
+.lista__link a  {
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    color: #C0C0C0;
+    margin: 16px 0;
+    font-size: 14px;
+}
+
+.lista__link a:active {
+    color: rgb(95, 3, 95);
+}
+
+.lista__link:hover {
+    color: #167BF7;
+}
